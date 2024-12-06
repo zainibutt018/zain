@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6c7d47;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+footer {
+  background-color: #6c7d47;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
